@@ -6,11 +6,11 @@ import UniversalButton from "./components/UniverstalButton/UniversalButton";
 function App() {
 
     //State
-    let [number, setNumber] = useState<number>(0)
+    const [number, setNumber] = useState<number>(0)
 
     // Buttons callbacks
     const numberInc = () => {
-        setNumber(++number)
+        setNumber(number + 1)
     }
     const numberReset = () => {
         setNumber(0)
