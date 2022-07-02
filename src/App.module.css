@@ -1,15 +1,15 @@
 .appContainer {
     background-color: #203A58;
-    width: 50vw;
-    height: 50vh;
+    width: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .app {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 30%;
     border: 5px #309EC2 solid;
     border-radius: 10px;
     display: flex;
